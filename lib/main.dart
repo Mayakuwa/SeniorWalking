@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:senior_walking/main_screen.dart';
-import 'package:senior_walking/main_screen02.dart';
+import 'package:senior_walking/Main_page.dart';
+import 'package:senior_walking/Active_page.dart';
+
 
 void main() {
   runApp(MyApp());
@@ -11,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: main_screen()
+      home:  Main_page()
     );
   }
 }
